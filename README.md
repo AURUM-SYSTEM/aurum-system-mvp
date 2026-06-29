@@ -1,5 +1,5 @@
-📄 AURUM SYSTEM – MVP SPEC (FIELD REPORTING AI)
-1. 📌 Overview
+AURUM SYSTEM – MVP SPEC (FIELD REPORTING AI)
+1. Overview
 AURUM SYSTEM is an AI-powered field reporting system designed for environments with low connectivity and high operational pressure.
 It allows field agents to record voice, text, and media, and automatically transforms them into structured operational reports.
 The system targets:
@@ -8,10 +8,10 @@ Field operations teams
 Security teams
 Agricultural cooperatives
 Administrative field agents
-2. 🎯 MVP Objective
+2. MVP Objective
 The MVP aims to validate:
 “Can a field agent generate a structured report from voice input, even in offline conditions, and have it usable by a supervisor?”
-3. 👤 User Roles
+3. User Roles
 3.1 Field Agent
 Create a field report
 Record voice input
@@ -30,7 +30,7 @@ Export reports (PDF)
 Manage users
 Manage organizations
 Assign roles
-4. 🔄 Core User Flow (IMPORTANT)
+4. Core User Flow (IMPORTANT)
 Field Agent Flow
 Open mobile app
 Select “New Report”
@@ -46,7 +46,7 @@ Structure data using AI (GPT)
 Store structured report
 Make available in dashboard
 Enable PDF export
-5. 🧠 Core Features (MVP)
+5. Core Features (MVP)
 5.1 Voice-to-Text
 Audio recording in mobile app
 Transcription using AI (Whisper or equivalent)
@@ -74,7 +74,7 @@ Map view (GPS points)
 Report preview
 5.6 Export
 PDF report generation per submission
-6. 🧱 Data Model (Simplified)
+6. Data Model (Simplified)
 User
 id
 name
@@ -90,7 +90,7 @@ images[]
 gps_location
 status (pending/synced/validated)
 created_at
-7. ⚙️ Technical Stack (Suggested)
+7. Technical Stack (Suggested)
 Frontend (Mobile)
 React Native (or Flutter)
 Local storage (SQLite / AsyncStorage)
@@ -114,7 +114,7 @@ Sync triggers when:
 internet available
 app opened
 background sync
-9. ⚠️ Scope Control (MVP ONLY)
+9. Scope Control (MVP ONLY)
 Included:
 Voice capture
 Text reports
@@ -130,11 +130,11 @@ Predictive analytics
 Multi-module system (AGRO/HEALTH/GOV)
 Complex conflict resolution system
 Real-time streaming sync
-10. 📊 Success Criteria
+10. Success Criteria
 MVP is successful if:
 An agent can create a report offline
 Data syncs correctly to backend
 Supervisor can view reports in dashboard
 AI generates structured reports usable without editing
-11. 🚀 Vision (short)
+11. Vision (short)
 AURUM SYSTEM aims to become a unified field intelligence infrastructure for emerging markets, enabling structured decision-making from raw field data.
